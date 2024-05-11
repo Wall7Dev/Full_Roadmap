@@ -1,6 +1,6 @@
 CSS Concepts
 
-There are 4 ways to select tags in CSS, these are;
+There are 5 ways to select tags in CSS, these are;
 
 -Tag selelctors
 example: h2{
@@ -22,6 +22,12 @@ background-color:black;
 
 -Universal Selectors
 \*{
+color:red;
+background-color:black;
+}
+
+-Attribute Selector
+p[href]{
 color:red;
 background-color:black;
 }
