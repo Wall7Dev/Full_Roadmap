@@ -32,3 +32,7 @@ img {
 .red_cat {
   color: red;
 }
+
+#footerParagraph {
+  font-family: "Courier New", Courier, monospace;
+}
