@@ -16,10 +16,11 @@
         border: solid antiquewhite;
         border: 5px 5px;
         margin-top: 15px;
-        border-radius: 10px;
+        border-radius: 5px;
       }
 
-      body {
+      main {
+        text-align: center;
         font-family: Fredoka, "Franklin Gothic Medium", "Arial Narrow", Arial,
           sans-serif;
 
@@ -44,7 +45,7 @@
         opacity: 30%;
       }
 
-      #paragraph_one{
+      #paragraph_one {
         width: 80%;
         margin-left: 10%;
         font-size: small;
@@ -52,7 +53,7 @@
 
       /*-----style for the second postcard------*/
       .beBold {
-        width: 60%;
+        width: 50%;
         background-color: rgb(17, 19, 2);
         border: 8px solid rgb(125, 107, 3);
         text-align: left;
@@ -67,13 +68,18 @@
         margin-top: 140px;
       }
 
-      .myHr {
-        color: rgb(125, 107, 3);
+      #myHr {
+        color: gold;
         width: 40%;
+        margin-left: 50px;
       }
 
-      .signature{
+      .signature {
+        color: rgb(222, 194, 35);
         margin-left: 50px;
+        font-family: "MSP Gothic", "Franklin Gothic Medium", "Arial Narrow",
+          Arial, sans-serif;
+        font-size: medium;
       }
     </style>
   </head>
@@ -83,14 +89,14 @@
         <img src="/HTML projects/assets/images/cat.png" />
         <h2>Be the humble "Kittle" and adorable</h2>
         <hr class="firstHr" />
-        <p>
+        <p id="paragraph_one">
           Cats are beautiful and addorable when they are humbly. Calm is
           Majestical! Calm is Kingly! Calm is Catly!
         </p>
       </div>
       <br />
       <div class="beBold">
-        <p id="paragraph_one" class="paragraphText">
+        <p class="paragraphText">
           Be strong, but not rude. <br />
           Be kind, but not weak. <br />
           Be bold, but not bully. <br />
@@ -98,10 +104,8 @@
           Be proud, but not arrogant. <br />
         </p>
         <br />
-        <p class="signature">
-          <hr class="myHr" />
-          signature here
-        </p>
+        <hr id="myHr" />
+        <p class="signature">signature here</p>
       </div>
     </main>
   </body>
