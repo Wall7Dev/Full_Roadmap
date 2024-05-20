@@ -1,6 +1,9 @@
 /* Write your code here: */
 
-h1,
-h2 {
-  color: blueviolet;
+h1 {
+  color: rgb(45, 4, 84);
+}
+
+.done > pre {
+  color: rgb(51, 50, 50);
 }
