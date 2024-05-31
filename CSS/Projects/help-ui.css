@@ -26,6 +26,8 @@ header {
 }
 
 .paragraph-div {
+  margin-left: 15%;
+  margin-right: 15%;
   padding: 15px;
   text-align: left;
 }
@@ -37,5 +39,6 @@ header {
 .run-paragraph {
   background-color: rgb(55, 53, 53);
   width: 220px;
+  height: 30px;
   text-align: center;
 }
