@@ -40,3 +40,11 @@ header {
   height: 30px;
   text-align: center;
 }
+
+/* --------------Media Query stylying -----------------*/
+
+@media (min-width: 900px) {
+  h1 {
+    font-size: 0.7rem;
+  }
+}
