@@ -16,6 +16,10 @@ h1 {
 
 footer {
   text-align: right;
-  color: midnightblue;
+  color: rgb(10, 10, 68);
 }
 
+.tile-image {
+  width: 300px;
+  float: inline-end;
+}
