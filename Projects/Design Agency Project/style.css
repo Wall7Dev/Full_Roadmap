@@ -42,4 +42,26 @@ footer {
 
 /*--------Styling for screens below 700px-----------*/
 @media (max-width: 700px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 30px;
+    display: block;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
 }
