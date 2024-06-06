@@ -39,3 +39,7 @@ footer {
 .right {
   float: right;
 }
+
+/*--------Styling for screens below 700px-----------*/
+@media (max-width: 700px) {
+}
