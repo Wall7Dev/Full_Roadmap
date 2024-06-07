@@ -39,6 +39,13 @@ footer {
 .right {
   float: right;
 }
+li{
+  list-style: none;
+}
+
+.headers-container{
+  display: flex;
+}
 
 /*--------Styling for screens below 700px-----------*/
 @media (max-width: 700px) {
