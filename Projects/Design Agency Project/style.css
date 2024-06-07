@@ -39,12 +39,14 @@ footer {
 .right {
   float: right;
 }
-li{
+
+li {
   list-style: none;
 }
 
-.headers-container{
+.container {
   display: flex;
+  gap: 40px;
 }
 
 /*--------Styling for screens below 700px-----------*/
@@ -70,5 +72,4 @@ li{
     display: inline;
     object-fit: cover;
   }
-}
 }
